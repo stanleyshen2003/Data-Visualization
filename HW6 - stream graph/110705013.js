@@ -180,7 +180,7 @@
   }
   //render(['sepal width', 'sepal length',  'petal width', 'petal length' ]);
 
-  d3.csv('http://vis.lab.djosix.com:2023/data/ma_lga_12345.csv').then(function (data) {
+  d3.csv('https://raw.githubusercontent.com/stanleyshen2003/Data-Visualization/main/HW6%20-%20stream%20graph/ma_lga_12345.csv').then(function (data) {
     // Create an empty object to store the transformed data
     var transformedData = [];
     var uniqueDates = new Set();

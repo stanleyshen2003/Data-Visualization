@@ -114,7 +114,7 @@
   }
 
 
-  d3.csv('http://vis.lab.djosix.com:2023/data/TIMES_WorldUniversityRankings_2024.csv').then(data => {
+  d3.csv('https://raw.githubusercontent.com/stanleyshen2003/Data-Visualization/main/HW5%20-%20stacked%20bar%20chart/TIMES_WorldUniversityRankings_2024.csv').then(data => {
     const weights = {
       teaching: 0.295,
       research: 0.29,

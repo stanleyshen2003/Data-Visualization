@@ -103,7 +103,7 @@
   };
   var dataGlobal;
   const columnsToInt = ['sepal length', 'sepal width', 'petal length', 'petal width'];
-  d3.csv('http://vis.lab.djosix.com:2023/data/iris.csv').then(data => {
+  d3.csv('https://raw.githubusercontent.com/stanleyshen2003/Data-Visualization/main/HW1%20-%20scattered%20plot/iris.csv').then(data => {
   	data.forEach(d => {
       columnsToInt.forEach(column => {
         d[column] = +d[column];

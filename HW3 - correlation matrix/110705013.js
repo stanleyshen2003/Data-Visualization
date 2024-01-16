@@ -157,7 +157,7 @@
   };
 
 
-  d3.text("http://vis.lab.djosix.com:2023/data/abalone.data", function(text) {
+  d3.text("https://raw.githubusercontent.com/stanleyshen2003/Data-Visualization/main/HW3%20-%20correlation%20matrix/abalone.data", function(text) {
   var data = d3.csvParseRows(text, (d, i) => {
     return {
     sex: d[0],

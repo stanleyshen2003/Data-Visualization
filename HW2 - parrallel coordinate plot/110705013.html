@@ -117,7 +117,7 @@
         .append("g")
         .attr("transform",
               "translate(" + margin.left + "," + margin.top + ")");
-      d3.csv("http://vis.lab.djosix.com:2023/data/iris.csv", function(data) {
+      d3.csv("https://raw.githubusercontent.com/stanleyshen2003/Data-Visualization/main/HW1%20-%20scattered%20plot/iris.csv", function(data) {
           data.pop()
           // Separate data into different arrays based on the "class" column
           data1 = data.filter(function(d) { return d.class === "Iris-setosa"; });

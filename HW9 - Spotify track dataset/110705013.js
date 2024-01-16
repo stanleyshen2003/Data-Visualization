@@ -216,7 +216,7 @@ function appendChartDiv(w,h) {
 }
 
 //讀資料=====================================================================
-d3.csv('http://vis.lab.djosix.com:2023/data/spotify_tracks.csv').then(data => {
+d3.csv('https://raw.githubusercontent.com/stanleyshen2003/Data-Visualization/main/HW9%20-%20Spotify%20track%20dataset/dataset.csv').then(data => {
   data = data.map(function(d) {
     return {
       artists: d.artists,

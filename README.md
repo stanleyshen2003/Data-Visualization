@@ -36,7 +36,9 @@ Interactive data visualization via D3.js. Open the .html to view.
 
 ## HW9 - Spotify track dataset
 ![image](https://github.com/stanleyshen2003/Data-Visualization/assets/80504001/73b0a7d9-2c40-40cd-a39b-d59831bc8ef8)
+
 ![image](https://github.com/stanleyshen2003/Data-Visualization/assets/80504001/c8aaa4e9-aed9-4e4e-a423-855d30d15a55)
+
 ![image](https://github.com/stanleyshen2003/Data-Visualization/assets/80504001/7317c471-627d-4d40-b159-df6ed69b29fa)
 
 

@@ -46,7 +46,8 @@ Interactive data visualization via D3.js. Open the .html to view.
 ## Final Project
 - detail usage & dataset description in report.pdf
 <br> </br>
-![image](https://github.com/stanleyshen2003/Data-Visualization/assets/80504001/0934721a-4793-4bd4-9191-216049e7c5fb)
+![image](https://github.com/stanleyshen2003/Data-Visualization/assets/80504001/ae531814-244a-4db6-890e-b9111138c069)
+
 <br> </br>
 ![image](https://github.com/stanleyshen2003/Data-Visualization/assets/80504001/d7730706-2b1c-498d-a95b-7c83db6b2f24)
 <br> </br>

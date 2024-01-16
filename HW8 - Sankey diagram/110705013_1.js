@@ -143,7 +143,7 @@ const render = (data) => {
 const columns = ["buying", "maintenance", "doors", "people", "luggage_boot", "safety"];
 // load the data
 var dataG;
-d3.text("http://vis.lab.djosix.com:2023/data/car.data", function (text) {
+d3.text("https://raw.githubusercontent.com/stanleyshen2003/Data-Visualization/main/HW8%20-%20Sankey%20diagram/sankey.data", function (text) {
   var data = d3.csvParseRows(text, (d, i) => {
     return {
       buying: d[0],

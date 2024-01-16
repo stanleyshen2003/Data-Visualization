@@ -145,7 +145,7 @@
 
   }
   var pollutantNames = ["SO2", "NO2", "CO", "O3", "PM10", "PM2.5"];
-  d3.csv('http://vis.lab.djosix.com:2023/data/air-pollution.csv').then(function (datain) {
+  d3.csv('https://raw.githubusercontent.com/stanleyshen2003/Data-Visualization/main/HW7%20-%20horizon%20chart/air-pollution.csv').then(function (datain) {
     // group them according to date and station
     datain = d3.nest()
       .key(function(d) { return d["Measurement date"].split(" ")[0] + d["Station code"]; })

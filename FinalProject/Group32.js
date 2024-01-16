@@ -24,7 +24,7 @@
     .style('color', 'white');
 
   const map = (selection, {data}) => {
-    fetch('https://raw.githubusercontent.com/yihsuan29/data/main/data.csv')
+    fetch('https://raw.githubusercontent.com/stanleyshen2003/Data-Visualization/main/FinalProject/data.csv')
       .then((response) => response.text())
       .then((csvString) => {
         let internet = d3$1.csvParse(csvString);
